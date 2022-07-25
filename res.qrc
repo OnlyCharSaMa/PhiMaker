@@ -1,0 +1,89 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/Phigros_Icon_New.png</file>
+        <file>res/phi/good_particle/HitParticle (1)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (2)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (3)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (4)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (5)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (6)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (7)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (8)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (9)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (10)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (11)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (12)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (13)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (14)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (15)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (16)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (17)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (18)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (19)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (20)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (21)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (22)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (23)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (24)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (25)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (26)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (27)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (28)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (29)_good.png</file>
+        <file>res/phi/good_particle/HitParticle (30)_good.png</file>
+        <file>res/phi/notes/Drag.png</file>
+        <file>res/phi/notes/DragHL.png</file>
+        <file>res/phi/notes/Flick.png</file>
+        <file>res/phi/notes/FlickHL.png</file>
+        <file>res/phi/notes/Hold_End.png</file>
+        <file>res/phi/notes/Hold_Head.png</file>
+        <file>res/phi/notes/Hold_HeadHL.png</file>
+        <file>res/phi/notes/Hold.png</file>
+        <file>res/phi/notes/HoldHL.png</file>
+        <file>res/phi/notes/Tap.png</file>
+        <file>res/phi/notes/TapHL.png</file>
+        <file>res/phi/perfect_particle/HitParticle (1)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (2)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (3)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (4)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (5)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (6)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (7)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (8)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (9)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (10)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (11)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (12)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (13)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (14)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (15)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (16)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (17)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (18)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (19)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (20)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (21)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (22)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (23)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (24)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (25)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (26)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (27)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (28)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (29)_perfect.png</file>
+        <file>res/phi/perfect_particle/HitParticle (30)_perfect.png</file>
+        <file>res/ui/button/jump_backward_trans.png</file>
+        <file>res/ui/button/jump_backward.png</file>
+        <file>res/ui/button/jump_forward_trans.png</file>
+        <file>res/ui/button/jump_forward.png</file>
+        <file>res/ui/button/pause_trans.png</file>
+        <file>res/ui/button/pause.png</file>
+        <file>res/ui/button/start_trans.png</file>
+        <file>res/ui/button/start.png</file>
+        <file>res/phi/sound/Drag.wav</file>
+        <file>res/phi/sound/Flick.wav</file>
+        <file>res/phi/sound/Tap.wav</file>
+        <file>res/test.mp3</file>
+        <file>res/pic/miku.jpg</file>
+    </qresource>
+</RCC>

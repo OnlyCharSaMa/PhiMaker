@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Component/CharCanvas.qml</file>
+        <file>Component/EffectImg.qml</file>
+        <file>Component/EffectRect.qml</file>
+        <file>PhiCom/PhiViewer.qml</file>
+        <file>PhiCom/PhiMaker.qml</file>
+        <file>PhiCom/Events/Event.qml</file>
+        <file>PhiCom/Obj/JudgeLine.qml</file>
+        <file>PhiCom/Obj/Note.qml</file>
+        <file>PhiCom/Obj/HitPTC.qml</file>
+        <file>PhiCom/Obj/Hold.qml</file>
+        <file>Component/Circle.qml</file>
+        <file>Component/EffectBtn.qml</file>
+        <file>PhiCom/PhiEdit/EditChart.qml</file>
+        <file>PhiCom/PhiEdit/EditNote.qml</file>
+        <file>JS/beatsTrans.js</file>
+        <file>Component/SimpleBtn.qml</file>
+        <file>JS/2dMath.js</file>
+        <file>JS/FuncLib.js</file>
+        <file>PhiCom/PhiEdit/EditAnimation.qml</file>
+    </qresource>
+</RCC>
