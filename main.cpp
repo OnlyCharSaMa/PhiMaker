@@ -68,19 +68,19 @@ int main(int argc, char *argv[])
     PhiViewer cpp_phiViewer;
 
     PhiJudgeLine* jl = new PhiJudgeLine(&cpp_phiViewer);
-    for(int i = 0; i < 1000; i++)
-    {
-        PhiNote* note    = createNote(
-                    jl,
-                    "tap",
-                    i * 50);
-    }
-    for(int i = 0; i < 1000; i++)
+//    for(int i = 0; i < 1000; i++)
+//    {
+//        PhiNote* note    = createNote(
+//                    jl,
+//                    "tap",
+//                    i * 50);
+//    }
+    for(int i = 0; i < 100; i++)
     {
         createHold(
                     jl,
                     "",
-                    i * 10);
+                    i * 1500);
     }
 
     cpp_phiViewer.pushJudgeLine(jl);
