@@ -73,6 +73,11 @@ void PhiAbstractNote::checkTime()
 
 }
 
+void PhiAbstractNote::crash()
+{
+
+}
+
 int PhiAbstractNote::endTime() const
 {
     return m_endTime;

@@ -81,7 +81,7 @@ public slots:
 
 public:
     virtual void checkTime();
-
+    virtual void crash();
 
     int endTime() const;
     void setEndTime(int newEndTime);

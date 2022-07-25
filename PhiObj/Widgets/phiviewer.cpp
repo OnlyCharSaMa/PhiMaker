@@ -264,14 +264,14 @@ inline void PhiViewer::drawHold(PhiHold *note)
     int headY           = -note->rFloorPos() * this->height(); // 现在已经搞清楚了基本原理和 根目录/doc/draw-Note-position.txt 一致
     int m_holdHeadRH = m_noteHs[note->typeIndex()];            // 因为历史原因 两个负号（与上面的 scale）抵消了，我也不想清理这堆古老的代码，等以后再说吧
     int m_holdHeadRW = m_noteWs[note->typeIndex() - 1];        // 毕竟绘图函数一旦成型也没啥需要改的了，这里顶多只是会难以理解而已，影响不大
-    QPoint&& headLeftTop = centerToLeftTop(centerX, headY, m_holdHeadRW, m_holdHeadRW);
+    QPoint&& headLeftTop = centerToLeftTop(centerX, headY, m_holdHeadRW, m_holdHeadRH);
 
 
     int endY             = -rEndFloorPos * this->height();
     QPoint&& endLeftTop  = centerToLeftTop(centerX, endY, m_holdEndW, m_holdEndH);
 
 
-    int m_holdBodyRH = -endLeftTop.y() - m_holdEndH  + headLeftTop.y();
+    int m_holdBodyRH  = -endLeftTop.y() - m_holdEndH  + headLeftTop.y();
     QPoint bodyLeftTop(endLeftTop.x(), endLeftTop.y() + m_holdEndH);
 
     int headClipHeight = (headLeftTop.y() + m_holdHeadRH);
