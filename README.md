@@ -6,4 +6,4 @@ A Phigros chart editor for players
 <p> Kit套件: MinGW 64Bit 8.1.0 </p>
 
 # Further Infomation 更多的消息
-<p> 初来Github不太适应qwq但是我会~~摆烂~~努力的 </p>
+<p> 初来Github不太适应qwq但是我会 ~~摆烂~~ 努力的 </p>
