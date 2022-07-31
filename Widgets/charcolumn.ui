@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>677</width>
-    <height>576</height>
+    <width>273</width>
+    <height>200</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,6 +16,22 @@
   <property name="styleSheet">
    <string notr="true"/>
   </property>
+  <widget class="QWidget" name="backgroundWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>641</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#backgroundWidget {
+	border-radius: 10px;
+	background-color: rgba(100 , 100, 100, 255);
+}</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>

@@ -2,7 +2,9 @@
 #include "./PhiObj/functions/PhiObjCreate.h"
 #include "./Widgets/resizewidget.h"
 #include "./Widgets/charcolumn.h""
+#include "./Widgets/singleitemwidget.h"
 #include "./PhiObj/PhigrosObj/phijudgeline.h"
+#include "./PhiObj/PhigrosObj/phiabstractnote.h"
 #include "./PhiObj/Widgets/phiviewer.h"
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
@@ -67,6 +69,7 @@ int main(int argc, char *argv[])
 
     PhiViewer cpp_phiViewer;
 
+
     PhiJudgeLine* jl = new PhiJudgeLine(&cpp_phiViewer);
 //    for(int i = 0; i < 1000; i++)
 //    {
@@ -90,8 +93,38 @@ int main(int argc, char *argv[])
 
 
     // 测试自己的窗口类
-//    CharColumn test;
-//    test.show();
+    CharColumn test;
+    test.show();
+    SingleItemWidget siW;
+    siW.setLabelColor(QColor(240, 240, 240, 255));
+    siW.setClipLineColor(QColor(150, 150, 150, 255));
+    siW.setClipLineWidth(1);
+    siW.setImageWidgetRadius(5);
+    test << &siW;
+
+    SingleItemWidget siW3;
+    siW3.setLabelColor(QColor(240, 240, 240, 255));
+    siW3.setClipLineColor(QColor(150, 150, 150, 255));
+    siW3.setClipLineWidth(1);
+    siW3.setImageWidgetRadius(5);
+    test << &siW3;
+
+    SingleItemWidget siW4;
+    siW4.setLabelColor(QColor(240, 240, 240, 255));
+    siW4.setClipLineColor(QColor(150, 150, 150, 255));
+    siW4.setClipLineWidth(1);
+    siW4.setImageWidgetRadius(5);
+    test << &siW4;
+
+    SingleItemWidget siW2;
+    siW2.setLabelColor(QColor(240, 240, 240, 255));
+    siW2.setClipLineColor(QColor(0, 0, 0, 0));
+    siW2.setImageWidgetRadius(5);
+    test << &siW2;
+    siW.show();
+    siW2.show();
+    siW3.show();
+    siW4.show();
 
 
 

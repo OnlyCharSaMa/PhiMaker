@@ -80,6 +80,8 @@ public slots:
     void initSpeed();
 
 public:
+    PhiViewer*    m_phiViewer;
+
     virtual void checkTime();
     virtual void crash();
 
@@ -99,8 +101,6 @@ private:
 
     int m_endTime        = INT_MAX;
 
-    // others
-    PhiViewer*    m_phiViewer = nullptr;
     PhiJudgeLine* m_judgeLine = nullptr;
 
     // status

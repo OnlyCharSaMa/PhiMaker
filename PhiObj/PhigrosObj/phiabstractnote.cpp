@@ -7,6 +7,7 @@
 #include <QDebug>
 #endif
 
+
 PhiAbstractNote::PhiAbstractNote(QObject *parent)
     : QObject{parent}
 {
@@ -15,11 +16,12 @@ PhiAbstractNote::PhiAbstractNote(QObject *parent)
     qDebug() << "note抽象类的初始化开始";
 #endif
 
+
+
     // 初始化 rFloorPos
     m_isCompleted = true;
 
     // 连接
-
 
 
 #ifdef QT_DEBUG
